@@ -1,0 +1,3 @@
+docker build -t my-rails-app .
+docker run --name some-rails-app -p 8080:3000 -d my-rails-app
+
